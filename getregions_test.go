@@ -46,7 +46,7 @@ func setup() dynamodb.BatchGetItemOutput {
 					"RegionId": &dynamodb.AttributeValue{
 						S: aws.String("115"),
 					},
-					"PartitionID": &dynamodb.AttributeValue{
+					"LevelType": &dynamodb.AttributeValue{
 						S: aws.String("G02"),
 					},
 					"KVPairs": &dynamodb.AttributeValue{
@@ -80,17 +80,17 @@ func TestHandleRequest(t *testing.T) {
 		tableID: "testTable",
 	}
 
-	mr0 := MapDataRequest{
+	mr0 := RegionRequest{
 		RegionID:    "115",
-		PartitionID: "G02",
+		LevelType: "SA4",
 	}
 
-	mr1 := MapDataRequest{
+	mr1 := RegionRequest{
 		RegionID:    "123",
-		PartitionID: "G02",
+		LevelType: "SA4",
 	}
 
-	mr := []MapDataRequest{}
+	mr := []RegionRequest{}
 
 	mr = append(mr, mr0, mr1)
 
