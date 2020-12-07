@@ -73,25 +73,21 @@ type Dependencies struct {
 	ddb     dynamodbiface.DynamoDBAPI
 	tableID string
 }
+//A very useful page. https://github.com/aws/aws-lambda-go/blob/master/events/apigw.go
 
 // HandleRequest Main entry point for the Lambda
-func (d *Dependencies) HandleRequest(req events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
+func (d *Dependencies) HandleRequest(req events.APIGatewayV2HTTPRequest) (events.APIGatewayV2HTTPResponse, error) {
 
-	var response events.APIGatewayProxyResponse
+	var response events.APIGatewayV2HTTPResponse
 	var regionNodeResponse RegionNodeResponse
 
-	var request []RegionRequest
+	var request RegionRequest
+
+	//QueryStringParameters map[string]string              `json:"queryStringParameters,omitempty"`
 	
-	//This will need to change to be the GET params.
-	//TODO fix this.
-	err := json.Unmarshal([]byte(req.Body), &request)
-
-	if err != nil {
-		fmt.Println("Error with unmarshalling request")
-		fmt.Println(req.Body)
-
+	if(req.QueryStringParameters == nil){
 		response.StatusCode = 500
-		s := []string{fmt.Sprint(err)}
+		s := []string{fmt.Sprint("Oh noes!")}
 		regionNodeResponse.Errors = s
 
 		b, _ := json.Marshal(regionNodeResponse)
@@ -100,18 +96,23 @@ func (d *Dependencies) HandleRequest(req events.APIGatewayProxyRequest) (events.
 		return response, errors.New("error with unmarshalling request")
 	}
 
-	//Validate Requests and trim long requests
-	if len(request) >= 100 {
-		fmt.Println("Trim request to 100 objects max")
-		request = request[:99]
+	reqMap := req.QueryStringParameters;
+	fmt.Print(reqMap);
 
-	}
+	fmt.Printf(reqMap["rgn"]);
+	fmt.Printf(reqMap["lvl"]);
+
+	//TODO error handling, and logging.
+
+	request.LevelType = reqMap["lvl"]
+	request.RegionID = reqMap["rgn"]
+
 
 	// Request items from DB.
 	db := d.ddb
 	table := d.tableID
 
-	regionNodeResponse = getBatchData(request, db, table)
+	regionNodeResponse = getData(request, db, table)
 	
 	b, err := json.Marshal(regionNodeResponse)
 
@@ -144,22 +145,18 @@ func main() {
 }
 
 // getBrachData - Makes requests on dynamodb with a batch interface.
-func getBatchData(requests []RegionRequest, ddb dynamodbiface.DynamoDBAPI, dbTable string) RegionNodeResponse {
+func getData(request RegionRequest, ddb dynamodbiface.DynamoDBAPI, dbTable string) RegionNodeResponse {
 
 	mapOfKeys := []map[string]*dynamodb.AttributeValue{}
 
-	for _, request := range requests {
-
-		mapOfKeys = append(mapOfKeys, map[string]*dynamodb.AttributeValue{
-			"RegionID": {
-				S: aws.String(request.RegionID),
-			},
-			"LevelType": {
-				S: aws.String(request.LevelType),
-			},
-		})
-
-	}
+	mapOfKeys = append(mapOfKeys, map[string]*dynamodb.AttributeValue{
+		"RegionID": {
+			S: aws.String(request.RegionID),
+		},
+		"LevelType": {
+			S: aws.String(request.LevelType),
+		},
+	})
 
 	input := &dynamodb.BatchGetItemInput{
 		RequestItems: map[string]*dynamodb.KeysAndAttributes{
