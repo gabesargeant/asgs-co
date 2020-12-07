@@ -84,7 +84,14 @@ func (d *Dependencies) HandleRequest(req events.APIGatewayV2HTTPRequest) (events
 	var request RegionRequest
 
 	//QueryStringParameters map[string]string              `json:"queryStringParameters,omitempty"`
+	fmt.Printf("****************8")
+	fmt.Println(req);
+	fmt.Println("is base 64 encoded? {}", req.IsBase64Encoded  )
+	fmt.Println(req.PathParameters);
+	fmt.Println(req.RawPath);
+	fmt.Println(req.RawQueryString);
 	
+	fmt.Printf("****************8")
 	if(req.QueryStringParameters == nil){
 		response.StatusCode = 500
 		s := []string{fmt.Sprint("Oh noes!")}
@@ -93,7 +100,7 @@ func (d *Dependencies) HandleRequest(req events.APIGatewayV2HTTPRequest) (events
 		b, _ := json.Marshal(regionNodeResponse)
 		response.Body = string(b)
 
-		return response, errors.New("error with unmarshalling request")
+		return response, errors.New("error ")
 	}
 
 	reqMap := req.QueryStringParameters;
