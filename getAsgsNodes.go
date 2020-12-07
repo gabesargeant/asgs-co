@@ -81,7 +81,7 @@ func (d *Dependencies) HandleRequest(req events.APIGatewayProxyRequest) (events.
 	var regionNodeResponse RegionNodeResponse
 
 	var request []RegionRequest
-	fmt.Println(request)
+	
 	//This will need to change to be the GET params.
 	//TODO fix this.
 	err := json.Unmarshal([]byte(req.Body), &request)
