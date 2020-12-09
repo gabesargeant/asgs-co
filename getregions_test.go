@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"testing"
 
@@ -34,6 +33,8 @@ func (d mockGetItems) BatchGetItem(in *dynamodb.BatchGetItemInput) (*dynamodb.Ba
 	return &mgi.GetBatchItemResponse, nil
 
 }
+//This is a valid response object.
+//{"Nodes":[{"RegionID":"101","RegionName":"Capital Region","LevelType":"SA4","LevelIDName":"SA4_CODE_2016","ParentRegions":{"1":{"RegionID":"1","RegionName":"New South Wales","LevelType":"STATE"}},"ChildRegions":{"10102":{"RegionID":"10102","RegionName":"Queanbeyan","LevelType":"SA3"},"10103":{"RegionID":"10103","RegionName":"Snowy Mountains","LevelType":"SA3"},"10104":{"RegionID":"10104","RegionName":"South Coast","LevelType":"SA3"},"10105":{"RegionID":"10105","RegionName":"Goulburn - Mulwaree","LevelType":"SA3"},"10106":{"RegionID":"10106","RegionName":"Young - Yass","LevelType":"SA3"}}}]}
 
 // setup - This is why the dynamoDB api sucks with golang. I'm dying in a sea of Attribute Values. Gah!
 func setup() dynamodb.BatchGetItemOutput {
@@ -41,25 +42,45 @@ func setup() dynamodb.BatchGetItemOutput {
 	bgio := dynamodb.BatchGetItemOutput{
 		Responses: map[string][]map[string]*dynamodb.AttributeValue{
 
-			"testtable01": []map[string]*dynamodb.AttributeValue{
+			"Nodes": []map[string]*dynamodb.AttributeValue{
 				{
 					"RegionId": &dynamodb.AttributeValue{
 						S: aws.String("115"),
 					},
 					"LevelType": &dynamodb.AttributeValue{
-						S: aws.String("G02"),
+						S: aws.String("SA4"),
 					},
-					"KVPairs": &dynamodb.AttributeValue{
+					"LevelIDName": &dynamodb.AttributeValue{
+						S: aws.String("SA4_CODE_2016"),
+					},
+					"RegionName": &dynamodb.AttributeValue{
+						S: aws.String("entral Coast"),
+					},
+					"ParentRegions": &dynamodb.AttributeValue{
 						M: map[string]*dynamodb.AttributeValue{
-							"Average_household_size":        &dynamodb.AttributeValue{N: aws.String("2.7")},
-							"Average_num_psns_per_bedroom":  &dynamodb.AttributeValue{N: aws.String("0.7")},
-							"Median_age_persons":            &dynamodb.AttributeValue{N: aws.String("36")},
-							"Median_mortgage_repay_monthly": &dynamodb.AttributeValue{N: aws.String("2470")},
-							"Median_rent_weekly":            &dynamodb.AttributeValue{N: aws.String("450")},
-							"Median_tot_fam_inc_weekly":     &dynamodb.AttributeValue{N: aws.String("2646")},
-							"Median_tot_hhd_inc_weekly":     &dynamodb.AttributeValue{N: aws.String("2330")},
-							"Median_tot_prsnl_inc_weekly":   &dynamodb.AttributeValue{N: aws.String("1132")},
-							"SA1_7DIGITCODE_2016":           &dynamodb.AttributeValue{N: aws.String("1101101")}},
+							"RegionId": &dynamodb.AttributeValue{
+								S: aws.String("1"),
+							},
+							"LevelType": &dynamodb.AttributeValue{
+								S: aws.String("STATE"),
+							},
+							"RegionName": &dynamodb.AttributeValue{
+								S: aws.String("New South Wales"),
+							},
+						},
+					},
+					"ChildRegions": &dynamodb.AttributeValue{
+						M: map[string]*dynamodb.AttributeValue{
+							"RegionId": &dynamodb.AttributeValue{
+								S: aws.String("10202"),
+							},
+							"LevelType": &dynamodb.AttributeValue{
+								S: aws.String("SA3"),
+							},
+							"RegionName": &dynamodb.AttributeValue{
+								S: aws.String("Wyong"),
+							},
+						},
 					},
 				},
 			},
@@ -80,26 +101,17 @@ func TestHandleRequest(t *testing.T) {
 		tableID: "testTable",
 	}
 
-	mr0 := RegionRequest{
-		RegionID:    "115",
-		LevelType: "SA4",
-	}
+	mr0 := make(map[string]string)
 
-	mr1 := RegionRequest{
-		RegionID:    "123",
-		LevelType: "SA4",
-	}
-
-	mr := []RegionRequest{}
-
-	mr = append(mr, mr0, mr1)
+	mr0["lvl"] = "SA4";
+	//mr0["rgn"] = "101"
 
 	//fmt.Print(mr)
 
-	req := events.APIGatewayProxyRequest{}
+	req := events.APIGatewayV2HTTPRequest{}
 
-	b, _ := json.Marshal(mr)
-	req.Body = string(b)
+	
+	req.QueryStringParameters = mr0
 
 	x, _ := d.HandleRequest(req)
 

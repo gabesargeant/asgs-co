@@ -55,19 +55,6 @@ type RegionRequest struct {
 	LevelType string `json:"PartitionID"`
 }
 
-var levelSequence = []string{
-	"MB",
-	"SA1",
-	"SA2",
-	"SA3",
-	"SA4",
-	"STATE",
-	"AUS",
-	"LGA",
-	"POA",
-	"SSC",
-}
-
 // Dependencies - Pointer Receiver based dependency injection
 type Dependencies struct {
 	ddb     dynamodbiface.DynamoDBAPI
@@ -83,15 +70,6 @@ func (d *Dependencies) HandleRequest(req events.APIGatewayV2HTTPRequest) (events
 
 	var request RegionRequest
 
-	//QueryStringParameters map[string]string              `json:"queryStringParameters,omitempty"`
-	fmt.Printf("****************8")
-	fmt.Println(req);
-	fmt.Println("is base 64 encoded? {}", req.IsBase64Encoded  )
-	fmt.Println(req.PathParameters);
-	fmt.Println(req.RawPath);
-	fmt.Println(req.RawQueryString);
-	
-	fmt.Printf("****************8")
 	if(req.QueryStringParameters == nil){
 		response.StatusCode = 500
 		s := []string{fmt.Sprint("Oh noes!")}
@@ -106,14 +84,17 @@ func (d *Dependencies) HandleRequest(req events.APIGatewayV2HTTPRequest) (events
 	reqMap := req.QueryStringParameters;
 	fmt.Print(reqMap);
 
-	fmt.Printf(reqMap["rgn"]);
-	fmt.Printf(reqMap["lvl"]);
-
-	//TODO error handling, and logging.
-
 	request.LevelType = reqMap["lvl"]
 	request.RegionID = reqMap["rgn"]
 
+	if(request.LevelType == "" || request.RegionID == ""){
+		//Bad request.	
+		response.StatusCode = 400
+		b, _ := json.Marshal(response)
+		response.Body = "Bad request, missing params" + string(b)
+
+
+	}
 
 	// Request items from DB.
 	db := d.ddb
@@ -124,7 +105,7 @@ func (d *Dependencies) HandleRequest(req events.APIGatewayV2HTTPRequest) (events
 	b, err := json.Marshal(regionNodeResponse)
 
 	if err != nil {
-		fmt.Println("error with marshalling request")
+		fmt.Println("Error with marshalling request")
 		response.StatusCode = 500
 		s := []string{fmt.Sprint(err)}
 		regionNodeResponse.Errors = s
@@ -133,9 +114,6 @@ func (d *Dependencies) HandleRequest(req events.APIGatewayV2HTTPRequest) (events
 		response.Body = string(b)
 		response.StatusCode = 200
 	}
-
-	//fmt.Print(response)
-	//fmt.Print(response.Body)
 
 	return response, nil
 }
@@ -185,7 +163,7 @@ func getData(request RegionRequest, ddb dynamodbiface.DynamoDBAPI, dbTable strin
 
 	for _, response := range batch.Responses {
 		for _, item := range response {
-
+			
 			var result AsgsRegionNode
 			err := dynamodbattribute.UnmarshalMap(item, &result)
 
