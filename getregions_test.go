@@ -42,7 +42,7 @@ func setup() dynamodb.BatchGetItemOutput {
 	bgio := dynamodb.BatchGetItemOutput{
 		Responses: map[string][]map[string]*dynamodb.AttributeValue{
 
-			"Nodes": []map[string]*dynamodb.AttributeValue{
+			"78978": []map[string]*dynamodb.AttributeValue{
 				{
 					"RegionId": &dynamodb.AttributeValue{
 						S: aws.String("115"),
@@ -57,6 +57,8 @@ func setup() dynamodb.BatchGetItemOutput {
 						S: aws.String("entral Coast"),
 					},
 					"ParentRegions": &dynamodb.AttributeValue{
+							M: map[string]*dynamodb.AttributeValue{
+							"123456" : {
 						M: map[string]*dynamodb.AttributeValue{
 							"RegionId": &dynamodb.AttributeValue{
 								S: aws.String("1"),
@@ -68,9 +70,11 @@ func setup() dynamodb.BatchGetItemOutput {
 								S: aws.String("New South Wales"),
 							},
 						},
-					},
+					},},},
 					"ChildRegions": &dynamodb.AttributeValue{
 						M: map[string]*dynamodb.AttributeValue{
+							"123456" : {
+							M: map[string]*dynamodb.AttributeValue{
 							"RegionId": &dynamodb.AttributeValue{
 								S: aws.String("10202"),
 							},
@@ -80,7 +84,7 @@ func setup() dynamodb.BatchGetItemOutput {
 							"RegionName": &dynamodb.AttributeValue{
 								S: aws.String("Wyong"),
 							},
-						},
+						},},},
 					},
 				},
 			},
