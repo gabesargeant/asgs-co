@@ -1,0 +1,9 @@
+.main {
+    border-style: 1px thick black;
+    border-style: solid;
+    min-height: 100%;
+}
+
+html, body {
+  height: 100%;
+}
