@@ -1,0 +1,2790 @@
+{
+	"RegionID": "AUS",
+	"RegionName": "AUSTRALIA",
+	"LevelType": "AUS",
+	"ChildRegions": {
+		"1": {
+			"RegionID": "1",
+			"RegionName": "New South Wales",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"10050": {
+					"RegionID": "10050",
+					"RegionName": "Albury (C)",
+					"LevelType": "LGA"
+				},
+				"10130": {
+					"RegionID": "10130",
+					"RegionName": "Armidale Regional (A)",
+					"LevelType": "LGA"
+				},
+				"10250": {
+					"RegionID": "10250",
+					"RegionName": "Ballina (A)",
+					"LevelType": "LGA"
+				},
+				"10300": {
+					"RegionID": "10300",
+					"RegionName": "Balranald (A)",
+					"LevelType": "LGA"
+				},
+				"10470": {
+					"RegionID": "10470",
+					"RegionName": "Bathurst Regional (A)",
+					"LevelType": "LGA"
+				},
+				"10500": {
+					"RegionID": "10500",
+					"RegionName": "Bayside (A)",
+					"LevelType": "LGA"
+				},
+				"10550": {
+					"RegionID": "10550",
+					"RegionName": "Bega Valley (A)",
+					"LevelType": "LGA"
+				},
+				"10600": {
+					"RegionID": "10600",
+					"RegionName": "Bellingen (A)",
+					"LevelType": "LGA"
+				},
+				"10650": {
+					"RegionID": "10650",
+					"RegionName": "Berrigan (A)",
+					"LevelType": "LGA"
+				},
+				"10750": {
+					"RegionID": "10750",
+					"RegionName": "Blacktown (C)",
+					"LevelType": "LGA"
+				},
+				"10800": {
+					"RegionID": "10800",
+					"RegionName": "Bland (A)",
+					"LevelType": "LGA"
+				},
+				"10850": {
+					"RegionID": "10850",
+					"RegionName": "Blayney (A)",
+					"LevelType": "LGA"
+				},
+				"10900": {
+					"RegionID": "10900",
+					"RegionName": "Blue Mountains (C)",
+					"LevelType": "LGA"
+				},
+				"10950": {
+					"RegionID": "10950",
+					"RegionName": "Bogan (A)",
+					"LevelType": "LGA"
+				},
+				"11150": {
+					"RegionID": "11150",
+					"RegionName": "Bourke (A)",
+					"LevelType": "LGA"
+				},
+				"11200": {
+					"RegionID": "11200",
+					"RegionName": "Brewarrina (A)",
+					"LevelType": "LGA"
+				},
+				"11250": {
+					"RegionID": "11250",
+					"RegionName": "Broken Hill (C)",
+					"LevelType": "LGA"
+				},
+				"11300": {
+					"RegionID": "11300",
+					"RegionName": "Burwood (A)",
+					"LevelType": "LGA"
+				},
+				"11350": {
+					"RegionID": "11350",
+					"RegionName": "Byron (A)",
+					"LevelType": "LGA"
+				},
+				"11400": {
+					"RegionID": "11400",
+					"RegionName": "Cabonne (A)",
+					"LevelType": "LGA"
+				},
+				"11450": {
+					"RegionID": "11450",
+					"RegionName": "Camden (A)",
+					"LevelType": "LGA"
+				},
+				"11500": {
+					"RegionID": "11500",
+					"RegionName": "Campbelltown (C) (NSW)",
+					"LevelType": "LGA"
+				},
+				"11520": {
+					"RegionID": "11520",
+					"RegionName": "Canada Bay (A)",
+					"LevelType": "LGA"
+				},
+				"11570": {
+					"RegionID": "11570",
+					"RegionName": "Canterbury-Bankstown (A)",
+					"LevelType": "LGA"
+				},
+				"11600": {
+					"RegionID": "11600",
+					"RegionName": "Carrathool (A)",
+					"LevelType": "LGA"
+				},
+				"11650": {
+					"RegionID": "11650",
+					"RegionName": "Central Coast (C) (NSW)",
+					"LevelType": "LGA"
+				},
+				"11700": {
+					"RegionID": "11700",
+					"RegionName": "Central Darling (A)",
+					"LevelType": "LGA"
+				},
+				"11720": {
+					"RegionID": "11720",
+					"RegionName": "Cessnock (C)",
+					"LevelType": "LGA"
+				},
+				"11730": {
+					"RegionID": "11730",
+					"RegionName": "Clarence Valley (A)",
+					"LevelType": "LGA"
+				},
+				"11750": {
+					"RegionID": "11750",
+					"RegionName": "Cobar (A)",
+					"LevelType": "LGA"
+				},
+				"11800": {
+					"RegionID": "11800",
+					"RegionName": "Coffs Harbour (C)",
+					"LevelType": "LGA"
+				},
+				"12000": {
+					"RegionID": "12000",
+					"RegionName": "Coolamon (A)",
+					"LevelType": "LGA"
+				},
+				"12150": {
+					"RegionID": "12150",
+					"RegionName": "Coonamble (A)",
+					"LevelType": "LGA"
+				},
+				"12350": {
+					"RegionID": "12350",
+					"RegionName": "Cowra (A)",
+					"LevelType": "LGA"
+				},
+				"12380": {
+					"RegionID": "12380",
+					"RegionName": "Cumberland (A)",
+					"LevelType": "LGA"
+				},
+				"12700": {
+					"RegionID": "12700",
+					"RegionName": "Dungog (A)",
+					"LevelType": "LGA"
+				},
+				"12730": {
+					"RegionID": "12730",
+					"RegionName": "Edward River (A)",
+					"LevelType": "LGA"
+				},
+				"12750": {
+					"RegionID": "12750",
+					"RegionName": "Eurobodalla (A)",
+					"LevelType": "LGA"
+				},
+				"12850": {
+					"RegionID": "12850",
+					"RegionName": "Fairfield (C)",
+					"LevelType": "LGA"
+				},
+				"12870": {
+					"RegionID": "12870",
+					"RegionName": "Federation (A)",
+					"LevelType": "LGA"
+				},
+				"12900": {
+					"RegionID": "12900",
+					"RegionName": "Forbes (A)",
+					"LevelType": "LGA"
+				},
+				"12930": {
+					"RegionID": "12930",
+					"RegionName": "Georges River (A)",
+					"LevelType": "LGA"
+				},
+				"12950": {
+					"RegionID": "12950",
+					"RegionName": "Gilgandra (A)",
+					"LevelType": "LGA"
+				},
+				"13010": {
+					"RegionID": "13010",
+					"RegionName": "Glen Innes Severn (A)",
+					"LevelType": "LGA"
+				},
+				"13310": {
+					"RegionID": "13310",
+					"RegionName": "Goulburn Mulwaree (A)",
+					"LevelType": "LGA"
+				},
+				"13340": {
+					"RegionID": "13340",
+					"RegionName": "Greater Hume Shire (A)",
+					"LevelType": "LGA"
+				},
+				"13450": {
+					"RegionID": "13450",
+					"RegionName": "Griffith (C)",
+					"LevelType": "LGA"
+				},
+				"13510": {
+					"RegionID": "13510",
+					"RegionName": "Gundagai (A)",
+					"LevelType": "LGA"
+				},
+				"13550": {
+					"RegionID": "13550",
+					"RegionName": "Gunnedah (A)",
+					"LevelType": "LGA"
+				},
+				"13660": {
+					"RegionID": "13660",
+					"RegionName": "Gwydir (A)",
+					"LevelType": "LGA"
+				},
+				"13800": {
+					"RegionID": "13800",
+					"RegionName": "Hawkesbury (C)",
+					"LevelType": "LGA"
+				},
+				"13850": {
+					"RegionID": "13850",
+					"RegionName": "Hay (A)",
+					"LevelType": "LGA"
+				},
+				"13910": {
+					"RegionID": "13910",
+					"RegionName": "Hilltops (A)",
+					"LevelType": "LGA"
+				},
+				"14000": {
+					"RegionID": "14000",
+					"RegionName": "Hornsby (A)",
+					"LevelType": "LGA"
+				},
+				"14100": {
+					"RegionID": "14100",
+					"RegionName": "Hunters Hill (A)",
+					"LevelType": "LGA"
+				},
+				"14170": {
+					"RegionID": "14170",
+					"RegionName": "Inner West (A)",
+					"LevelType": "LGA"
+				},
+				"14200": {
+					"RegionID": "14200",
+					"RegionName": "Inverell (A)",
+					"LevelType": "LGA"
+				},
+				"14300": {
+					"RegionID": "14300",
+					"RegionName": "Junee (A)",
+					"LevelType": "LGA"
+				},
+				"14350": {
+					"RegionID": "14350",
+					"RegionName": "Kempsey (A)",
+					"LevelType": "LGA"
+				},
+				"14400": {
+					"RegionID": "14400",
+					"RegionName": "Kiama (A)",
+					"LevelType": "LGA"
+				},
+				"14500": {
+					"RegionID": "14500",
+					"RegionName": "Ku-ring-gai (A)",
+					"LevelType": "LGA"
+				},
+				"14550": {
+					"RegionID": "14550",
+					"RegionName": "Kyogle (A)",
+					"LevelType": "LGA"
+				},
+				"14600": {
+					"RegionID": "14600",
+					"RegionName": "Lachlan (A)",
+					"LevelType": "LGA"
+				},
+				"14650": {
+					"RegionID": "14650",
+					"RegionName": "Lake Macquarie (C)",
+					"LevelType": "LGA"
+				},
+				"14700": {
+					"RegionID": "14700",
+					"RegionName": "Lane Cove (A)",
+					"LevelType": "LGA"
+				},
+				"14750": {
+					"RegionID": "14750",
+					"RegionName": "Leeton (A)",
+					"LevelType": "LGA"
+				},
+				"14850": {
+					"RegionID": "14850",
+					"RegionName": "Lismore (C)",
+					"LevelType": "LGA"
+				},
+				"14870": {
+					"RegionID": "14870",
+					"RegionName": "Lithgow (C)",
+					"LevelType": "LGA"
+				},
+				"14900": {
+					"RegionID": "14900",
+					"RegionName": "Liverpool (C)",
+					"LevelType": "LGA"
+				},
+				"14920": {
+					"RegionID": "14920",
+					"RegionName": "Liverpool Plains (A)",
+					"LevelType": "LGA"
+				},
+				"14950": {
+					"RegionID": "14950",
+					"RegionName": "Lockhart (A)",
+					"LevelType": "LGA"
+				},
+				"15050": {
+					"RegionID": "15050",
+					"RegionName": "Maitland (C)",
+					"LevelType": "LGA"
+				},
+				"15240": {
+					"RegionID": "15240",
+					"RegionName": "Mid-Coast (A)",
+					"LevelType": "LGA"
+				},
+				"15270": {
+					"RegionID": "15270",
+					"RegionName": "Mid-Western Regional (A)",
+					"LevelType": "LGA"
+				},
+				"15300": {
+					"RegionID": "15300",
+					"RegionName": "Moree Plains (A)",
+					"LevelType": "LGA"
+				},
+				"15350": {
+					"RegionID": "15350",
+					"RegionName": "Mosman (A)",
+					"LevelType": "LGA"
+				},
+				"15520": {
+					"RegionID": "15520",
+					"RegionName": "Murray River (A)",
+					"LevelType": "LGA"
+				},
+				"15560": {
+					"RegionID": "15560",
+					"RegionName": "Murrumbidgee (A)",
+					"LevelType": "LGA"
+				},
+				"15650": {
+					"RegionID": "15650",
+					"RegionName": "Muswellbrook (A)",
+					"LevelType": "LGA"
+				},
+				"15700": {
+					"RegionID": "15700",
+					"RegionName": "Nambucca (A)",
+					"LevelType": "LGA"
+				},
+				"15750": {
+					"RegionID": "15750",
+					"RegionName": "Narrabri (A)",
+					"LevelType": "LGA"
+				},
+				"15800": {
+					"RegionID": "15800",
+					"RegionName": "Narrandera (A)",
+					"LevelType": "LGA"
+				},
+				"15850": {
+					"RegionID": "15850",
+					"RegionName": "Narromine (A)",
+					"LevelType": "LGA"
+				},
+				"15900": {
+					"RegionID": "15900",
+					"RegionName": "Newcastle (C)",
+					"LevelType": "LGA"
+				},
+				"15950": {
+					"RegionID": "15950",
+					"RegionName": "North Sydney (A)",
+					"LevelType": "LGA"
+				},
+				"15990": {
+					"RegionID": "15990",
+					"RegionName": "Northern Beaches (A)",
+					"LevelType": "LGA"
+				},
+				"16100": {
+					"RegionID": "16100",
+					"RegionName": "Oberon (A)",
+					"LevelType": "LGA"
+				},
+				"16150": {
+					"RegionID": "16150",
+					"RegionName": "Orange (C)",
+					"LevelType": "LGA"
+				},
+				"16200": {
+					"RegionID": "16200",
+					"RegionName": "Parkes (A)",
+					"LevelType": "LGA"
+				},
+				"16260": {
+					"RegionID": "16260",
+					"RegionName": "Parramatta (C)",
+					"LevelType": "LGA"
+				},
+				"16350": {
+					"RegionID": "16350",
+					"RegionName": "Penrith (C)",
+					"LevelType": "LGA"
+				},
+				"16380": {
+					"RegionID": "16380",
+					"RegionName": "Port Macquarie-Hastings (A)",
+					"LevelType": "LGA"
+				},
+				"16400": {
+					"RegionID": "16400",
+					"RegionName": "Port Stephens (A)",
+					"LevelType": "LGA"
+				},
+				"16490": {
+					"RegionID": "16490",
+					"RegionName": "Queanbeyan-Palerang Regional (A)",
+					"LevelType": "LGA"
+				},
+				"16550": {
+					"RegionID": "16550",
+					"RegionName": "Randwick (C)",
+					"LevelType": "LGA"
+				},
+				"16610": {
+					"RegionID": "16610",
+					"RegionName": "Richmond Valley (A)",
+					"LevelType": "LGA"
+				},
+				"16700": {
+					"RegionID": "16700",
+					"RegionName": "Ryde (C)",
+					"LevelType": "LGA"
+				},
+				"16900": {
+					"RegionID": "16900",
+					"RegionName": "Shellharbour (C)",
+					"LevelType": "LGA"
+				},
+				"16950": {
+					"RegionID": "16950",
+					"RegionName": "Shoalhaven (C)",
+					"LevelType": "LGA"
+				},
+				"17000": {
+					"RegionID": "17000",
+					"RegionName": "Singleton (A)",
+					"LevelType": "LGA"
+				},
+				"17040": {
+					"RegionID": "17040",
+					"RegionName": "Snowy Monaro Regional (A)",
+					"LevelType": "LGA"
+				},
+				"17080": {
+					"RegionID": "17080",
+					"RegionName": "Snowy Valleys (A)",
+					"LevelType": "LGA"
+				},
+				"17100": {
+					"RegionID": "17100",
+					"RegionName": "Strathfield (A)",
+					"LevelType": "LGA"
+				},
+				"17150": {
+					"RegionID": "17150",
+					"RegionName": "Sutherland Shire (A)",
+					"LevelType": "LGA"
+				},
+				"17200": {
+					"RegionID": "17200",
+					"RegionName": "Sydney (C)",
+					"LevelType": "LGA"
+				},
+				"17310": {
+					"RegionID": "17310",
+					"RegionName": "Tamworth Regional (A)",
+					"LevelType": "LGA"
+				},
+				"17350": {
+					"RegionID": "17350",
+					"RegionName": "Temora (A)",
+					"LevelType": "LGA"
+				},
+				"17400": {
+					"RegionID": "17400",
+					"RegionName": "Tenterfield (A)",
+					"LevelType": "LGA"
+				},
+				"17420": {
+					"RegionID": "17420",
+					"RegionName": "The Hills Shire (A)",
+					"LevelType": "LGA"
+				},
+				"17550": {
+					"RegionID": "17550",
+					"RegionName": "Tweed (A)",
+					"LevelType": "LGA"
+				},
+				"17620": {
+					"RegionID": "17620",
+					"RegionName": "Upper Hunter Shire (A)",
+					"LevelType": "LGA"
+				},
+				"17640": {
+					"RegionID": "17640",
+					"RegionName": "Upper Lachlan Shire (A)",
+					"LevelType": "LGA"
+				},
+				"17650": {
+					"RegionID": "17650",
+					"RegionName": "Uralla (A)",
+					"LevelType": "LGA"
+				},
+				"17750": {
+					"RegionID": "17750",
+					"RegionName": "Wagga Wagga (C)",
+					"LevelType": "LGA"
+				},
+				"17850": {
+					"RegionID": "17850",
+					"RegionName": "Walcha (A)",
+					"LevelType": "LGA"
+				},
+				"17900": {
+					"RegionID": "17900",
+					"RegionName": "Walgett (A)",
+					"LevelType": "LGA"
+				},
+				"17950": {
+					"RegionID": "17950",
+					"RegionName": "Warren (A)",
+					"LevelType": "LGA"
+				},
+				"18020": {
+					"RegionID": "18020",
+					"RegionName": "Warrumbungle Shire (A)",
+					"LevelType": "LGA"
+				},
+				"18050": {
+					"RegionID": "18050",
+					"RegionName": "Waverley (A)",
+					"LevelType": "LGA"
+				},
+				"18100": {
+					"RegionID": "18100",
+					"RegionName": "Weddin (A)",
+					"LevelType": "LGA"
+				},
+				"18200": {
+					"RegionID": "18200",
+					"RegionName": "Wentworth (A)",
+					"LevelType": "LGA"
+				},
+				"18230": {
+					"RegionID": "18230",
+					"RegionName": "Western Plains Regional (A)",
+					"LevelType": "LGA"
+				},
+				"18250": {
+					"RegionID": "18250",
+					"RegionName": "Willoughby (C)",
+					"LevelType": "LGA"
+				},
+				"18350": {
+					"RegionID": "18350",
+					"RegionName": "Wingecarribee (A)",
+					"LevelType": "LGA"
+				},
+				"18400": {
+					"RegionID": "18400",
+					"RegionName": "Wollondilly (A)",
+					"LevelType": "LGA"
+				},
+				"18450": {
+					"RegionID": "18450",
+					"RegionName": "Wollongong (C)",
+					"LevelType": "LGA"
+				},
+				"18500": {
+					"RegionID": "18500",
+					"RegionName": "Woollahra (A)",
+					"LevelType": "LGA"
+				},
+				"18710": {
+					"RegionID": "18710",
+					"RegionName": "Yass Valley (A)",
+					"LevelType": "LGA"
+				},
+				"19399": {
+					"RegionID": "19399",
+					"RegionName": "Unincorporated NSW",
+					"LevelType": "LGA"
+				}
+			}
+		},
+		"2": {
+			"RegionID": "2",
+			"RegionName": "Victoria",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"20110": {
+					"RegionID": "20110",
+					"RegionName": "Alpine (S)",
+					"LevelType": "LGA"
+				},
+				"20260": {
+					"RegionID": "20260",
+					"RegionName": "Ararat (RC)",
+					"LevelType": "LGA"
+				},
+				"20570": {
+					"RegionID": "20570",
+					"RegionName": "Ballarat (C)",
+					"LevelType": "LGA"
+				},
+				"20660": {
+					"RegionID": "20660",
+					"RegionName": "Banyule (C)",
+					"LevelType": "LGA"
+				},
+				"20740": {
+					"RegionID": "20740",
+					"RegionName": "Bass Coast (S)",
+					"LevelType": "LGA"
+				},
+				"20830": {
+					"RegionID": "20830",
+					"RegionName": "Baw Baw (S)",
+					"LevelType": "LGA"
+				},
+				"20910": {
+					"RegionID": "20910",
+					"RegionName": "Bayside (C)",
+					"LevelType": "LGA"
+				},
+				"21010": {
+					"RegionID": "21010",
+					"RegionName": "Benalla (RC)",
+					"LevelType": "LGA"
+				},
+				"21110": {
+					"RegionID": "21110",
+					"RegionName": "Boroondara (C)",
+					"LevelType": "LGA"
+				},
+				"21180": {
+					"RegionID": "21180",
+					"RegionName": "Brimbank (C)",
+					"LevelType": "LGA"
+				},
+				"21270": {
+					"RegionID": "21270",
+					"RegionName": "Buloke (S)",
+					"LevelType": "LGA"
+				},
+				"21370": {
+					"RegionID": "21370",
+					"RegionName": "Campaspe (S)",
+					"LevelType": "LGA"
+				},
+				"21450": {
+					"RegionID": "21450",
+					"RegionName": "Cardinia (S)",
+					"LevelType": "LGA"
+				},
+				"21610": {
+					"RegionID": "21610",
+					"RegionName": "Casey (C)",
+					"LevelType": "LGA"
+				},
+				"21670": {
+					"RegionID": "21670",
+					"RegionName": "Central Goldfields (S)",
+					"LevelType": "LGA"
+				},
+				"21750": {
+					"RegionID": "21750",
+					"RegionName": "Colac-Otway (S)",
+					"LevelType": "LGA"
+				},
+				"21830": {
+					"RegionID": "21830",
+					"RegionName": "Corangamite (S)",
+					"LevelType": "LGA"
+				},
+				"21890": {
+					"RegionID": "21890",
+					"RegionName": "Darebin (C)",
+					"LevelType": "LGA"
+				},
+				"22110": {
+					"RegionID": "22110",
+					"RegionName": "East Gippsland (S)",
+					"LevelType": "LGA"
+				},
+				"22170": {
+					"RegionID": "22170",
+					"RegionName": "Frankston (C)",
+					"LevelType": "LGA"
+				},
+				"22250": {
+					"RegionID": "22250",
+					"RegionName": "Gannawarra (S)",
+					"LevelType": "LGA"
+				},
+				"22310": {
+					"RegionID": "22310",
+					"RegionName": "Glen Eira (C)",
+					"LevelType": "LGA"
+				},
+				"22410": {
+					"RegionID": "22410",
+					"RegionName": "Glenelg (S)",
+					"LevelType": "LGA"
+				},
+				"22490": {
+					"RegionID": "22490",
+					"RegionName": "Golden Plains (S)",
+					"LevelType": "LGA"
+				},
+				"22620": {
+					"RegionID": "22620",
+					"RegionName": "Greater Bendigo (C)",
+					"LevelType": "LGA"
+				},
+				"22670": {
+					"RegionID": "22670",
+					"RegionName": "Greater Dandenong (C)",
+					"LevelType": "LGA"
+				},
+				"22750": {
+					"RegionID": "22750",
+					"RegionName": "Greater Geelong (C)",
+					"LevelType": "LGA"
+				},
+				"22830": {
+					"RegionID": "22830",
+					"RegionName": "Greater Shepparton (C)",
+					"LevelType": "LGA"
+				},
+				"22910": {
+					"RegionID": "22910",
+					"RegionName": "Hepburn (S)",
+					"LevelType": "LGA"
+				},
+				"22980": {
+					"RegionID": "22980",
+					"RegionName": "Hindmarsh (S)",
+					"LevelType": "LGA"
+				},
+				"23110": {
+					"RegionID": "23110",
+					"RegionName": "Hobsons Bay (C)",
+					"LevelType": "LGA"
+				},
+				"23190": {
+					"RegionID": "23190",
+					"RegionName": "Horsham (RC)",
+					"LevelType": "LGA"
+				},
+				"23270": {
+					"RegionID": "23270",
+					"RegionName": "Hume (C)",
+					"LevelType": "LGA"
+				},
+				"23350": {
+					"RegionID": "23350",
+					"RegionName": "Indigo (S)",
+					"LevelType": "LGA"
+				},
+				"23430": {
+					"RegionID": "23430",
+					"RegionName": "Kingston (C) (Vic.)",
+					"LevelType": "LGA"
+				},
+				"23670": {
+					"RegionID": "23670",
+					"RegionName": "Knox (C)",
+					"LevelType": "LGA"
+				},
+				"23810": {
+					"RegionID": "23810",
+					"RegionName": "Latrobe (C) (Vic.)",
+					"LevelType": "LGA"
+				},
+				"23940": {
+					"RegionID": "23940",
+					"RegionName": "Loddon (S)",
+					"LevelType": "LGA"
+				},
+				"24130": {
+					"RegionID": "24130",
+					"RegionName": "Macedon Ranges (S)",
+					"LevelType": "LGA"
+				},
+				"24210": {
+					"RegionID": "24210",
+					"RegionName": "Manningham (C)",
+					"LevelType": "LGA"
+				},
+				"24250": {
+					"RegionID": "24250",
+					"RegionName": "Mansfield (S)",
+					"LevelType": "LGA"
+				},
+				"24330": {
+					"RegionID": "24330",
+					"RegionName": "Maribyrnong (C)",
+					"LevelType": "LGA"
+				},
+				"24410": {
+					"RegionID": "24410",
+					"RegionName": "Maroondah (C)",
+					"LevelType": "LGA"
+				},
+				"24600": {
+					"RegionID": "24600",
+					"RegionName": "Melbourne (C)",
+					"LevelType": "LGA"
+				},
+				"24650": {
+					"RegionID": "24650",
+					"RegionName": "Melton (C)",
+					"LevelType": "LGA"
+				},
+				"24780": {
+					"RegionID": "24780",
+					"RegionName": "Mildura (RC)",
+					"LevelType": "LGA"
+				},
+				"24850": {
+					"RegionID": "24850",
+					"RegionName": "Mitchell (S)",
+					"LevelType": "LGA"
+				},
+				"24900": {
+					"RegionID": "24900",
+					"RegionName": "Moira (S)",
+					"LevelType": "LGA"
+				},
+				"24970": {
+					"RegionID": "24970",
+					"RegionName": "Monash (C)",
+					"LevelType": "LGA"
+				},
+				"25060": {
+					"RegionID": "25060",
+					"RegionName": "Moonee Valley (C)",
+					"LevelType": "LGA"
+				},
+				"25150": {
+					"RegionID": "25150",
+					"RegionName": "Moorabool (S)",
+					"LevelType": "LGA"
+				},
+				"25250": {
+					"RegionID": "25250",
+					"RegionName": "Moreland (C)",
+					"LevelType": "LGA"
+				},
+				"25340": {
+					"RegionID": "25340",
+					"RegionName": "Mornington Peninsula (S)",
+					"LevelType": "LGA"
+				},
+				"25430": {
+					"RegionID": "25430",
+					"RegionName": "Mount Alexander (S)",
+					"LevelType": "LGA"
+				},
+				"25490": {
+					"RegionID": "25490",
+					"RegionName": "Moyne (S)",
+					"LevelType": "LGA"
+				},
+				"25620": {
+					"RegionID": "25620",
+					"RegionName": "Murrindindi (S)",
+					"LevelType": "LGA"
+				},
+				"25710": {
+					"RegionID": "25710",
+					"RegionName": "Nillumbik (S)",
+					"LevelType": "LGA"
+				},
+				"25810": {
+					"RegionID": "25810",
+					"RegionName": "Northern Grampians (S)",
+					"LevelType": "LGA"
+				},
+				"25900": {
+					"RegionID": "25900",
+					"RegionName": "Port Phillip (C)",
+					"LevelType": "LGA"
+				},
+				"25990": {
+					"RegionID": "25990",
+					"RegionName": "Pyrenees (S)",
+					"LevelType": "LGA"
+				},
+				"26080": {
+					"RegionID": "26080",
+					"RegionName": "Queenscliffe (B)",
+					"LevelType": "LGA"
+				},
+				"26170": {
+					"RegionID": "26170",
+					"RegionName": "South Gippsland (S)",
+					"LevelType": "LGA"
+				},
+				"26260": {
+					"RegionID": "26260",
+					"RegionName": "Southern Grampians (S)",
+					"LevelType": "LGA"
+				},
+				"26350": {
+					"RegionID": "26350",
+					"RegionName": "Stonnington (C)",
+					"LevelType": "LGA"
+				},
+				"26430": {
+					"RegionID": "26430",
+					"RegionName": "Strathbogie (S)",
+					"LevelType": "LGA"
+				},
+				"26490": {
+					"RegionID": "26490",
+					"RegionName": "Surf Coast (S)",
+					"LevelType": "LGA"
+				},
+				"26610": {
+					"RegionID": "26610",
+					"RegionName": "Swan Hill (RC)",
+					"LevelType": "LGA"
+				},
+				"26670": {
+					"RegionID": "26670",
+					"RegionName": "Towong (S)",
+					"LevelType": "LGA"
+				},
+				"26700": {
+					"RegionID": "26700",
+					"RegionName": "Wangaratta (RC)",
+					"LevelType": "LGA"
+				},
+				"26730": {
+					"RegionID": "26730",
+					"RegionName": "Warrnambool (C)",
+					"LevelType": "LGA"
+				},
+				"26810": {
+					"RegionID": "26810",
+					"RegionName": "Wellington (S)",
+					"LevelType": "LGA"
+				},
+				"26890": {
+					"RegionID": "26890",
+					"RegionName": "West Wimmera (S)",
+					"LevelType": "LGA"
+				},
+				"26980": {
+					"RegionID": "26980",
+					"RegionName": "Whitehorse (C)",
+					"LevelType": "LGA"
+				},
+				"27070": {
+					"RegionID": "27070",
+					"RegionName": "Whittlesea (C)",
+					"LevelType": "LGA"
+				},
+				"27170": {
+					"RegionID": "27170",
+					"RegionName": "Wodonga (C)",
+					"LevelType": "LGA"
+				},
+				"27260": {
+					"RegionID": "27260",
+					"RegionName": "Wyndham (C)",
+					"LevelType": "LGA"
+				},
+				"27350": {
+					"RegionID": "27350",
+					"RegionName": "Yarra (C)",
+					"LevelType": "LGA"
+				},
+				"27450": {
+					"RegionID": "27450",
+					"RegionName": "Yarra Ranges (S)",
+					"LevelType": "LGA"
+				},
+				"27630": {
+					"RegionID": "27630",
+					"RegionName": "Yarriambiack (S)",
+					"LevelType": "LGA"
+				},
+				"29399": {
+					"RegionID": "29399",
+					"RegionName": "Unincorporated Vic",
+					"LevelType": "LGA"
+				}
+			}
+		},
+		"3": {
+			"RegionID": "3",
+			"RegionName": "Queensland",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"30250": {
+					"RegionID": "30250",
+					"RegionName": "Aurukun (S)",
+					"LevelType": "LGA"
+				},
+				"30300": {
+					"RegionID": "30300",
+					"RegionName": "Balonne (S)",
+					"LevelType": "LGA"
+				},
+				"30370": {
+					"RegionID": "30370",
+					"RegionName": "Banana (S)",
+					"LevelType": "LGA"
+				},
+				"30410": {
+					"RegionID": "30410",
+					"RegionName": "Barcaldine (R)",
+					"LevelType": "LGA"
+				},
+				"30450": {
+					"RegionID": "30450",
+					"RegionName": "Barcoo (S)",
+					"LevelType": "LGA"
+				},
+				"30760": {
+					"RegionID": "30760",
+					"RegionName": "Blackall-Tambo (R)",
+					"LevelType": "LGA"
+				},
+				"30900": {
+					"RegionID": "30900",
+					"RegionName": "Boulia (S)",
+					"LevelType": "LGA"
+				},
+				"31000": {
+					"RegionID": "31000",
+					"RegionName": "Brisbane (C)",
+					"LevelType": "LGA"
+				},
+				"31750": {
+					"RegionID": "31750",
+					"RegionName": "Bulloo (S)",
+					"LevelType": "LGA"
+				},
+				"31820": {
+					"RegionID": "31820",
+					"RegionName": "Bundaberg (R)",
+					"LevelType": "LGA"
+				},
+				"31900": {
+					"RegionID": "31900",
+					"RegionName": "Burdekin (S)",
+					"LevelType": "LGA"
+				},
+				"31950": {
+					"RegionID": "31950",
+					"RegionName": "Burke (S)",
+					"LevelType": "LGA"
+				},
+				"32080": {
+					"RegionID": "32080",
+					"RegionName": "Cairns (R)",
+					"LevelType": "LGA"
+				},
+				"32250": {
+					"RegionID": "32250",
+					"RegionName": "Carpentaria (S)",
+					"LevelType": "LGA"
+				},
+				"32260": {
+					"RegionID": "32260",
+					"RegionName": "Cassowary Coast (R)",
+					"LevelType": "LGA"
+				},
+				"32270": {
+					"RegionID": "32270",
+					"RegionName": "Central Highlands (R) (Qld)",
+					"LevelType": "LGA"
+				},
+				"32310": {
+					"RegionID": "32310",
+					"RegionName": "Charters Towers (R)",
+					"LevelType": "LGA"
+				},
+				"32330": {
+					"RegionID": "32330",
+					"RegionName": "Cherbourg (S)",
+					"LevelType": "LGA"
+				},
+				"32450": {
+					"RegionID": "32450",
+					"RegionName": "Cloncurry (S)",
+					"LevelType": "LGA"
+				},
+				"32500": {
+					"RegionID": "32500",
+					"RegionName": "Cook (S)",
+					"LevelType": "LGA"
+				},
+				"32600": {
+					"RegionID": "32600",
+					"RegionName": "Croydon (S)",
+					"LevelType": "LGA"
+				},
+				"32750": {
+					"RegionID": "32750",
+					"RegionName": "Diamantina (S)",
+					"LevelType": "LGA"
+				},
+				"32770": {
+					"RegionID": "32770",
+					"RegionName": "Doomadgee (S)",
+					"LevelType": "LGA"
+				},
+				"32810": {
+					"RegionID": "32810",
+					"RegionName": "Douglas (S)",
+					"LevelType": "LGA"
+				},
+				"33100": {
+					"RegionID": "33100",
+					"RegionName": "Etheridge (S)",
+					"LevelType": "LGA"
+				},
+				"33200": {
+					"RegionID": "33200",
+					"RegionName": "Flinders (S) (Qld)",
+					"LevelType": "LGA"
+				},
+				"33220": {
+					"RegionID": "33220",
+					"RegionName": "Fraser Coast (R)",
+					"LevelType": "LGA"
+				},
+				"33360": {
+					"RegionID": "33360",
+					"RegionName": "Gladstone (R)",
+					"LevelType": "LGA"
+				},
+				"33430": {
+					"RegionID": "33430",
+					"RegionName": "Gold Coast (C)",
+					"LevelType": "LGA"
+				},
+				"33610": {
+					"RegionID": "33610",
+					"RegionName": "Goondiwindi (R)",
+					"LevelType": "LGA"
+				},
+				"33620": {
+					"RegionID": "33620",
+					"RegionName": "Gympie (R)",
+					"LevelType": "LGA"
+				},
+				"33800": {
+					"RegionID": "33800",
+					"RegionName": "Hinchinbrook (S)",
+					"LevelType": "LGA"
+				},
+				"33830": {
+					"RegionID": "33830",
+					"RegionName": "Hope Vale (S)",
+					"LevelType": "LGA"
+				},
+				"33960": {
+					"RegionID": "33960",
+					"RegionName": "Ipswich (C)",
+					"LevelType": "LGA"
+				},
+				"33980": {
+					"RegionID": "33980",
+					"RegionName": "Isaac (R)",
+					"LevelType": "LGA"
+				},
+				"34420": {
+					"RegionID": "34420",
+					"RegionName": "Kowanyama (S)",
+					"LevelType": "LGA"
+				},
+				"34530": {
+					"RegionID": "34530",
+					"RegionName": "Livingstone (S)",
+					"LevelType": "LGA"
+				},
+				"34570": {
+					"RegionID": "34570",
+					"RegionName": "Lockhart River (S)",
+					"LevelType": "LGA"
+				},
+				"34580": {
+					"RegionID": "34580",
+					"RegionName": "Lockyer Valley (R)",
+					"LevelType": "LGA"
+				},
+				"34590": {
+					"RegionID": "34590",
+					"RegionName": "Logan (C)",
+					"LevelType": "LGA"
+				},
+				"34710": {
+					"RegionID": "34710",
+					"RegionName": "Longreach (R)",
+					"LevelType": "LGA"
+				},
+				"34770": {
+					"RegionID": "34770",
+					"RegionName": "Mackay (R)",
+					"LevelType": "LGA"
+				},
+				"34800": {
+					"RegionID": "34800",
+					"RegionName": "McKinlay (S)",
+					"LevelType": "LGA"
+				},
+				"34830": {
+					"RegionID": "34830",
+					"RegionName": "Mapoon (S)",
+					"LevelType": "LGA"
+				},
+				"34860": {
+					"RegionID": "34860",
+					"RegionName": "Maranoa (R)",
+					"LevelType": "LGA"
+				},
+				"34880": {
+					"RegionID": "34880",
+					"RegionName": "Mareeba (S)",
+					"LevelType": "LGA"
+				},
+				"35010": {
+					"RegionID": "35010",
+					"RegionName": "Moreton Bay (R)",
+					"LevelType": "LGA"
+				},
+				"35250": {
+					"RegionID": "35250",
+					"RegionName": "Mornington (S)",
+					"LevelType": "LGA"
+				},
+				"35300": {
+					"RegionID": "35300",
+					"RegionName": "Mount Isa (C)",
+					"LevelType": "LGA"
+				},
+				"35600": {
+					"RegionID": "35600",
+					"RegionName": "Murweh (S)",
+					"LevelType": "LGA"
+				},
+				"35670": {
+					"RegionID": "35670",
+					"RegionName": "Napranum (S)",
+					"LevelType": "LGA"
+				},
+				"35740": {
+					"RegionID": "35740",
+					"RegionName": "Noosa (S)",
+					"LevelType": "LGA"
+				},
+				"35760": {
+					"RegionID": "35760",
+					"RegionName": "North Burnett (R)",
+					"LevelType": "LGA"
+				},
+				"35780": {
+					"RegionID": "35780",
+					"RegionName": "Northern Peninsula Area (R)",
+					"LevelType": "LGA"
+				},
+				"35790": {
+					"RegionID": "35790",
+					"RegionName": "Palm Island (S)",
+					"LevelType": "LGA"
+				},
+				"35800": {
+					"RegionID": "35800",
+					"RegionName": "Paroo (S)",
+					"LevelType": "LGA"
+				},
+				"36070": {
+					"RegionID": "36070",
+					"RegionName": "Pormpuraaw (S)",
+					"LevelType": "LGA"
+				},
+				"36150": {
+					"RegionID": "36150",
+					"RegionName": "Quilpie (S)",
+					"LevelType": "LGA"
+				},
+				"36250": {
+					"RegionID": "36250",
+					"RegionName": "Redland (C)",
+					"LevelType": "LGA"
+				},
+				"36300": {
+					"RegionID": "36300",
+					"RegionName": "Richmond (S)",
+					"LevelType": "LGA"
+				},
+				"36370": {
+					"RegionID": "36370",
+					"RegionName": "Rockhampton (R)",
+					"LevelType": "LGA"
+				},
+				"36510": {
+					"RegionID": "36510",
+					"RegionName": "Scenic Rim (R)",
+					"LevelType": "LGA"
+				},
+				"36580": {
+					"RegionID": "36580",
+					"RegionName": "Somerset (R)",
+					"LevelType": "LGA"
+				},
+				"36630": {
+					"RegionID": "36630",
+					"RegionName": "South Burnett (R)",
+					"LevelType": "LGA"
+				},
+				"36660": {
+					"RegionID": "36660",
+					"RegionName": "Southern Downs (R)",
+					"LevelType": "LGA"
+				},
+				"36720": {
+					"RegionID": "36720",
+					"RegionName": "Sunshine Coast (R)",
+					"LevelType": "LGA"
+				},
+				"36820": {
+					"RegionID": "36820",
+					"RegionName": "Tablelands (R)",
+					"LevelType": "LGA"
+				},
+				"36910": {
+					"RegionID": "36910",
+					"RegionName": "Toowoomba (R)",
+					"LevelType": "LGA"
+				},
+				"36950": {
+					"RegionID": "36950",
+					"RegionName": "Torres (S)",
+					"LevelType": "LGA"
+				},
+				"36960": {
+					"RegionID": "36960",
+					"RegionName": "Torres Strait Island (R)",
+					"LevelType": "LGA"
+				},
+				"37010": {
+					"RegionID": "37010",
+					"RegionName": "Townsville (C)",
+					"LevelType": "LGA"
+				},
+				"37300": {
+					"RegionID": "37300",
+					"RegionName": "Weipa (T)",
+					"LevelType": "LGA"
+				},
+				"37310": {
+					"RegionID": "37310",
+					"RegionName": "Western Downs (R)",
+					"LevelType": "LGA"
+				},
+				"37340": {
+					"RegionID": "37340",
+					"RegionName": "Whitsunday (R)",
+					"LevelType": "LGA"
+				},
+				"37400": {
+					"RegionID": "37400",
+					"RegionName": "Winton (S)",
+					"LevelType": "LGA"
+				},
+				"37550": {
+					"RegionID": "37550",
+					"RegionName": "Woorabinda (S)",
+					"LevelType": "LGA"
+				},
+				"37570": {
+					"RegionID": "37570",
+					"RegionName": "Wujal Wujal (S)",
+					"LevelType": "LGA"
+				},
+				"37600": {
+					"RegionID": "37600",
+					"RegionName": "Yarrabah (S)",
+					"LevelType": "LGA"
+				}
+			}
+		},
+		"4": {
+			"RegionID": "4",
+			"RegionName": "South Australia",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"40070": {
+					"RegionID": "40070",
+					"RegionName": "Adelaide (C)",
+					"LevelType": "LGA"
+				},
+				"40120": {
+					"RegionID": "40120",
+					"RegionName": "Adelaide Hills (DC)",
+					"LevelType": "LGA"
+				},
+				"40220": {
+					"RegionID": "40220",
+					"RegionName": "Alexandrina (DC)",
+					"LevelType": "LGA"
+				},
+				"40250": {
+					"RegionID": "40250",
+					"RegionName": "Anangu Pitjantjatjara (AC)",
+					"LevelType": "LGA"
+				},
+				"40310": {
+					"RegionID": "40310",
+					"RegionName": "Barossa (DC)",
+					"LevelType": "LGA"
+				},
+				"40430": {
+					"RegionID": "40430",
+					"RegionName": "Barunga West (DC)",
+					"LevelType": "LGA"
+				},
+				"40520": {
+					"RegionID": "40520",
+					"RegionName": "Berri and Barmera (DC)",
+					"LevelType": "LGA"
+				},
+				"40700": {
+					"RegionID": "40700",
+					"RegionName": "Burnside (C)",
+					"LevelType": "LGA"
+				},
+				"40910": {
+					"RegionID": "40910",
+					"RegionName": "Campbelltown (C) (SA)",
+					"LevelType": "LGA"
+				},
+				"41010": {
+					"RegionID": "41010",
+					"RegionName": "Ceduna (DC)",
+					"LevelType": "LGA"
+				},
+				"41060": {
+					"RegionID": "41060",
+					"RegionName": "Charles Sturt (C)",
+					"LevelType": "LGA"
+				},
+				"41140": {
+					"RegionID": "41140",
+					"RegionName": "Clare and Gilbert Valleys (DC)",
+					"LevelType": "LGA"
+				},
+				"41190": {
+					"RegionID": "41190",
+					"RegionName": "Cleve (DC)",
+					"LevelType": "LGA"
+				},
+				"41330": {
+					"RegionID": "41330",
+					"RegionName": "Coober Pedy (DC)",
+					"LevelType": "LGA"
+				},
+				"41560": {
+					"RegionID": "41560",
+					"RegionName": "Copper Coast (DC)",
+					"LevelType": "LGA"
+				},
+				"41750": {
+					"RegionID": "41750",
+					"RegionName": "Elliston (DC)",
+					"LevelType": "LGA"
+				},
+				"41830": {
+					"RegionID": "41830",
+					"RegionName": "Flinders Ranges (DC)",
+					"LevelType": "LGA"
+				},
+				"41960": {
+					"RegionID": "41960",
+					"RegionName": "Franklin Harbour (DC)",
+					"LevelType": "LGA"
+				},
+				"42030": {
+					"RegionID": "42030",
+					"RegionName": "Gawler (T)",
+					"LevelType": "LGA"
+				},
+				"42110": {
+					"RegionID": "42110",
+					"RegionName": "Goyder (DC)",
+					"LevelType": "LGA"
+				},
+				"42250": {
+					"RegionID": "42250",
+					"RegionName": "Grant (DC)",
+					"LevelType": "LGA"
+				},
+				"42600": {
+					"RegionID": "42600",
+					"RegionName": "Holdfast Bay (C)",
+					"LevelType": "LGA"
+				},
+				"42750": {
+					"RegionID": "42750",
+					"RegionName": "Kangaroo Island (DC)",
+					"LevelType": "LGA"
+				},
+				"43080": {
+					"RegionID": "43080",
+					"RegionName": "Karoonda East Murray (DC)",
+					"LevelType": "LGA"
+				},
+				"43220": {
+					"RegionID": "43220",
+					"RegionName": "Kimba (DC)",
+					"LevelType": "LGA"
+				},
+				"43360": {
+					"RegionID": "43360",
+					"RegionName": "Kingston (DC) (SA)",
+					"LevelType": "LGA"
+				},
+				"43650": {
+					"RegionID": "43650",
+					"RegionName": "Light (RegC)",
+					"LevelType": "LGA"
+				},
+				"43710": {
+					"RegionID": "43710",
+					"RegionName": "Lower Eyre Peninsula (DC)",
+					"LevelType": "LGA"
+				},
+				"43790": {
+					"RegionID": "43790",
+					"RegionName": "Loxton Waikerie (DC)",
+					"LevelType": "LGA"
+				},
+				"43920": {
+					"RegionID": "43920",
+					"RegionName": "Mallala (DC)",
+					"LevelType": "LGA"
+				},
+				"44000": {
+					"RegionID": "44000",
+					"RegionName": "Maralinga Tjarutja (AC)",
+					"LevelType": "LGA"
+				},
+				"44060": {
+					"RegionID": "44060",
+					"RegionName": "Marion (C)",
+					"LevelType": "LGA"
+				},
+				"44210": {
+					"RegionID": "44210",
+					"RegionName": "Mid Murray (DC)",
+					"LevelType": "LGA"
+				},
+				"44340": {
+					"RegionID": "44340",
+					"RegionName": "Mitcham (C)",
+					"LevelType": "LGA"
+				},
+				"44550": {
+					"RegionID": "44550",
+					"RegionName": "Mount Barker (DC)",
+					"LevelType": "LGA"
+				},
+				"44620": {
+					"RegionID": "44620",
+					"RegionName": "Mount Gambier (C)",
+					"LevelType": "LGA"
+				},
+				"44830": {
+					"RegionID": "44830",
+					"RegionName": "Mount Remarkable (DC)",
+					"LevelType": "LGA"
+				},
+				"45040": {
+					"RegionID": "45040",
+					"RegionName": "Murray Bridge (RC)",
+					"LevelType": "LGA"
+				},
+				"45090": {
+					"RegionID": "45090",
+					"RegionName": "Naracoorte and Lucindale (DC)",
+					"LevelType": "LGA"
+				},
+				"45120": {
+					"RegionID": "45120",
+					"RegionName": "Northern Areas (DC)",
+					"LevelType": "LGA"
+				},
+				"45290": {
+					"RegionID": "45290",
+					"RegionName": "Norwood Payneham St Peters (C)",
+					"LevelType": "LGA"
+				},
+				"45340": {
+					"RegionID": "45340",
+					"RegionName": "Onkaparinga (C)",
+					"LevelType": "LGA"
+				},
+				"45400": {
+					"RegionID": "45400",
+					"RegionName": "Orroroo/Carrieton (DC)",
+					"LevelType": "LGA"
+				},
+				"45540": {
+					"RegionID": "45540",
+					"RegionName": "Peterborough (DC)",
+					"LevelType": "LGA"
+				},
+				"45680": {
+					"RegionID": "45680",
+					"RegionName": "Playford (C)",
+					"LevelType": "LGA"
+				},
+				"45890": {
+					"RegionID": "45890",
+					"RegionName": "Port Adelaide Enfield (C)",
+					"LevelType": "LGA"
+				},
+				"46090": {
+					"RegionID": "46090",
+					"RegionName": "Port Augusta (C)",
+					"LevelType": "LGA"
+				},
+				"46300": {
+					"RegionID": "46300",
+					"RegionName": "Port Lincoln (C)",
+					"LevelType": "LGA"
+				},
+				"46450": {
+					"RegionID": "46450",
+					"RegionName": "Port Pirie City and Dists (M)",
+					"LevelType": "LGA"
+				},
+				"46510": {
+					"RegionID": "46510",
+					"RegionName": "Prospect (C)",
+					"LevelType": "LGA"
+				},
+				"46670": {
+					"RegionID": "46670",
+					"RegionName": "Renmark Paringa (DC)",
+					"LevelType": "LGA"
+				},
+				"46860": {
+					"RegionID": "46860",
+					"RegionName": "Robe (DC)",
+					"LevelType": "LGA"
+				},
+				"46970": {
+					"RegionID": "46970",
+					"RegionName": "Roxby Downs (M)",
+					"LevelType": "LGA"
+				},
+				"47140": {
+					"RegionID": "47140",
+					"RegionName": "Salisbury (C)",
+					"LevelType": "LGA"
+				},
+				"47290": {
+					"RegionID": "47290",
+					"RegionName": "Southern Mallee (DC)",
+					"LevelType": "LGA"
+				},
+				"47490": {
+					"RegionID": "47490",
+					"RegionName": "Streaky Bay (DC)",
+					"LevelType": "LGA"
+				},
+				"47630": {
+					"RegionID": "47630",
+					"RegionName": "Tatiara (DC)",
+					"LevelType": "LGA"
+				},
+				"47700": {
+					"RegionID": "47700",
+					"RegionName": "Tea Tree Gully (C)",
+					"LevelType": "LGA"
+				},
+				"47800": {
+					"RegionID": "47800",
+					"RegionName": "The Coorong (DC)",
+					"LevelType": "LGA"
+				},
+				"47910": {
+					"RegionID": "47910",
+					"RegionName": "Tumby Bay (DC)",
+					"LevelType": "LGA"
+				},
+				"47980": {
+					"RegionID": "47980",
+					"RegionName": "Unley (C)",
+					"LevelType": "LGA"
+				},
+				"48050": {
+					"RegionID": "48050",
+					"RegionName": "Victor Harbor (C)",
+					"LevelType": "LGA"
+				},
+				"48130": {
+					"RegionID": "48130",
+					"RegionName": "Wakefield (DC)",
+					"LevelType": "LGA"
+				},
+				"48260": {
+					"RegionID": "48260",
+					"RegionName": "Walkerville (M)",
+					"LevelType": "LGA"
+				},
+				"48340": {
+					"RegionID": "48340",
+					"RegionName": "Wattle Range (DC)",
+					"LevelType": "LGA"
+				},
+				"48410": {
+					"RegionID": "48410",
+					"RegionName": "West Torrens (C)",
+					"LevelType": "LGA"
+				},
+				"48540": {
+					"RegionID": "48540",
+					"RegionName": "Whyalla (C)",
+					"LevelType": "LGA"
+				},
+				"48640": {
+					"RegionID": "48640",
+					"RegionName": "Wudinna (DC)",
+					"LevelType": "LGA"
+				},
+				"48750": {
+					"RegionID": "48750",
+					"RegionName": "Yankalilla (DC)",
+					"LevelType": "LGA"
+				},
+				"48830": {
+					"RegionID": "48830",
+					"RegionName": "Yorke Peninsula (DC)",
+					"LevelType": "LGA"
+				},
+				"49399": {
+					"RegionID": "49399",
+					"RegionName": "Unincorporated SA",
+					"LevelType": "LGA"
+				}
+			}
+		},
+		"5": {
+			"RegionID": "5",
+			"RegionName": "Western Australia",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"50080": {
+					"RegionID": "50080",
+					"RegionName": "Albany (C)",
+					"LevelType": "LGA"
+				},
+				"50210": {
+					"RegionID": "50210",
+					"RegionName": "Armadale (C)",
+					"LevelType": "LGA"
+				},
+				"50250": {
+					"RegionID": "50250",
+					"RegionName": "Ashburton (S)",
+					"LevelType": "LGA"
+				},
+				"50280": {
+					"RegionID": "50280",
+					"RegionName": "Augusta-Margaret River (S)",
+					"LevelType": "LGA"
+				},
+				"50350": {
+					"RegionID": "50350",
+					"RegionName": "Bassendean (T)",
+					"LevelType": "LGA"
+				},
+				"50420": {
+					"RegionID": "50420",
+					"RegionName": "Bayswater (C)",
+					"LevelType": "LGA"
+				},
+				"50490": {
+					"RegionID": "50490",
+					"RegionName": "Belmont (C)",
+					"LevelType": "LGA"
+				},
+				"50560": {
+					"RegionID": "50560",
+					"RegionName": "Beverley (S)",
+					"LevelType": "LGA"
+				},
+				"50630": {
+					"RegionID": "50630",
+					"RegionName": "Boddington (S)",
+					"LevelType": "LGA"
+				},
+				"50770": {
+					"RegionID": "50770",
+					"RegionName": "Boyup Brook (S)",
+					"LevelType": "LGA"
+				},
+				"50840": {
+					"RegionID": "50840",
+					"RegionName": "Bridgetown-Greenbushes (S)",
+					"LevelType": "LGA"
+				},
+				"50910": {
+					"RegionID": "50910",
+					"RegionName": "Brookton (S)",
+					"LevelType": "LGA"
+				},
+				"50980": {
+					"RegionID": "50980",
+					"RegionName": "Broome (S)",
+					"LevelType": "LGA"
+				},
+				"51080": {
+					"RegionID": "51080",
+					"RegionName": "Broomehill-Tambellup (S)",
+					"LevelType": "LGA"
+				},
+				"51120": {
+					"RegionID": "51120",
+					"RegionName": "Bruce Rock (S)",
+					"LevelType": "LGA"
+				},
+				"51190": {
+					"RegionID": "51190",
+					"RegionName": "Bunbury (C)",
+					"LevelType": "LGA"
+				},
+				"51260": {
+					"RegionID": "51260",
+					"RegionName": "Busselton (C)",
+					"LevelType": "LGA"
+				},
+				"51310": {
+					"RegionID": "51310",
+					"RegionName": "Cambridge (T)",
+					"LevelType": "LGA"
+				},
+				"51330": {
+					"RegionID": "51330",
+					"RegionName": "Canning (C)",
+					"LevelType": "LGA"
+				},
+				"51400": {
+					"RegionID": "51400",
+					"RegionName": "Capel (S)",
+					"LevelType": "LGA"
+				},
+				"51470": {
+					"RegionID": "51470",
+					"RegionName": "Carnamah (S)",
+					"LevelType": "LGA"
+				},
+				"51540": {
+					"RegionID": "51540",
+					"RegionName": "Carnarvon (S)",
+					"LevelType": "LGA"
+				},
+				"51610": {
+					"RegionID": "51610",
+					"RegionName": "Chapman Valley (S)",
+					"LevelType": "LGA"
+				},
+				"51680": {
+					"RegionID": "51680",
+					"RegionName": "Chittering (S)",
+					"LevelType": "LGA"
+				},
+				"51750": {
+					"RegionID": "51750",
+					"RegionName": "Claremont (T)",
+					"LevelType": "LGA"
+				},
+				"51820": {
+					"RegionID": "51820",
+					"RegionName": "Cockburn (C)",
+					"LevelType": "LGA"
+				},
+				"51890": {
+					"RegionID": "51890",
+					"RegionName": "Collie (S)",
+					"LevelType": "LGA"
+				},
+				"51960": {
+					"RegionID": "51960",
+					"RegionName": "Coolgardie (S)",
+					"LevelType": "LGA"
+				},
+				"52030": {
+					"RegionID": "52030",
+					"RegionName": "Coorow (S)",
+					"LevelType": "LGA"
+				},
+				"52100": {
+					"RegionID": "52100",
+					"RegionName": "Corrigin (S)",
+					"LevelType": "LGA"
+				},
+				"52170": {
+					"RegionID": "52170",
+					"RegionName": "Cottesloe (T)",
+					"LevelType": "LGA"
+				},
+				"52240": {
+					"RegionID": "52240",
+					"RegionName": "Cranbrook (S)",
+					"LevelType": "LGA"
+				},
+				"52310": {
+					"RegionID": "52310",
+					"RegionName": "Cuballing (S)",
+					"LevelType": "LGA"
+				},
+				"52380": {
+					"RegionID": "52380",
+					"RegionName": "Cue (S)",
+					"LevelType": "LGA"
+				},
+				"52450": {
+					"RegionID": "52450",
+					"RegionName": "Cunderdin (S)",
+					"LevelType": "LGA"
+				},
+				"52520": {
+					"RegionID": "52520",
+					"RegionName": "Dalwallinu (S)",
+					"LevelType": "LGA"
+				},
+				"52590": {
+					"RegionID": "52590",
+					"RegionName": "Dandaragan (S)",
+					"LevelType": "LGA"
+				},
+				"52660": {
+					"RegionID": "52660",
+					"RegionName": "Dardanup (S)",
+					"LevelType": "LGA"
+				},
+				"52730": {
+					"RegionID": "52730",
+					"RegionName": "Denmark (S)",
+					"LevelType": "LGA"
+				},
+				"52800": {
+					"RegionID": "52800",
+					"RegionName": "Derby-West Kimberley (S)",
+					"LevelType": "LGA"
+				},
+				"52870": {
+					"RegionID": "52870",
+					"RegionName": "Donnybrook-Balingup (S)",
+					"LevelType": "LGA"
+				},
+				"52940": {
+					"RegionID": "52940",
+					"RegionName": "Dowerin (S)",
+					"LevelType": "LGA"
+				},
+				"53010": {
+					"RegionID": "53010",
+					"RegionName": "Dumbleyung (S)",
+					"LevelType": "LGA"
+				},
+				"53080": {
+					"RegionID": "53080",
+					"RegionName": "Dundas (S)",
+					"LevelType": "LGA"
+				},
+				"53150": {
+					"RegionID": "53150",
+					"RegionName": "East Fremantle (T)",
+					"LevelType": "LGA"
+				},
+				"53220": {
+					"RegionID": "53220",
+					"RegionName": "East Pilbara (S)",
+					"LevelType": "LGA"
+				},
+				"53290": {
+					"RegionID": "53290",
+					"RegionName": "Esperance (S)",
+					"LevelType": "LGA"
+				},
+				"53360": {
+					"RegionID": "53360",
+					"RegionName": "Exmouth (S)",
+					"LevelType": "LGA"
+				},
+				"53430": {
+					"RegionID": "53430",
+					"RegionName": "Fremantle (C)",
+					"LevelType": "LGA"
+				},
+				"53570": {
+					"RegionID": "53570",
+					"RegionName": "Gingin (S)",
+					"LevelType": "LGA"
+				},
+				"53640": {
+					"RegionID": "53640",
+					"RegionName": "Gnowangerup (S)",
+					"LevelType": "LGA"
+				},
+				"53710": {
+					"RegionID": "53710",
+					"RegionName": "Goomalling (S)",
+					"LevelType": "LGA"
+				},
+				"53780": {
+					"RegionID": "53780",
+					"RegionName": "Gosnells (C)",
+					"LevelType": "LGA"
+				},
+				"53800": {
+					"RegionID": "53800",
+					"RegionName": "Greater Geraldton (C)",
+					"LevelType": "LGA"
+				},
+				"53920": {
+					"RegionID": "53920",
+					"RegionName": "Halls Creek (S)",
+					"LevelType": "LGA"
+				},
+				"53990": {
+					"RegionID": "53990",
+					"RegionName": "Harvey (S)",
+					"LevelType": "LGA"
+				},
+				"54060": {
+					"RegionID": "54060",
+					"RegionName": "Irwin (S)",
+					"LevelType": "LGA"
+				},
+				"54130": {
+					"RegionID": "54130",
+					"RegionName": "Jerramungup (S)",
+					"LevelType": "LGA"
+				},
+				"54170": {
+					"RegionID": "54170",
+					"RegionName": "Joondalup (C)",
+					"LevelType": "LGA"
+				},
+				"54200": {
+					"RegionID": "54200",
+					"RegionName": "Kalamunda (C)",
+					"LevelType": "LGA"
+				},
+				"54280": {
+					"RegionID": "54280",
+					"RegionName": "Kalgoorlie/Boulder (C)",
+					"LevelType": "LGA"
+				},
+				"54310": {
+					"RegionID": "54310",
+					"RegionName": "Karratha (C)",
+					"LevelType": "LGA"
+				},
+				"54340": {
+					"RegionID": "54340",
+					"RegionName": "Katanning (S)",
+					"LevelType": "LGA"
+				},
+				"54410": {
+					"RegionID": "54410",
+					"RegionName": "Kellerberrin (S)",
+					"LevelType": "LGA"
+				},
+				"54480": {
+					"RegionID": "54480",
+					"RegionName": "Kent (S)",
+					"LevelType": "LGA"
+				},
+				"54550": {
+					"RegionID": "54550",
+					"RegionName": "Kojonup (S)",
+					"LevelType": "LGA"
+				},
+				"54620": {
+					"RegionID": "54620",
+					"RegionName": "Kondinin (S)",
+					"LevelType": "LGA"
+				},
+				"54690": {
+					"RegionID": "54690",
+					"RegionName": "Koorda (S)",
+					"LevelType": "LGA"
+				},
+				"54760": {
+					"RegionID": "54760",
+					"RegionName": "Kulin (S)",
+					"LevelType": "LGA"
+				},
+				"54830": {
+					"RegionID": "54830",
+					"RegionName": "Kwinana (C)",
+					"LevelType": "LGA"
+				},
+				"54900": {
+					"RegionID": "54900",
+					"RegionName": "Lake Grace (S)",
+					"LevelType": "LGA"
+				},
+				"54970": {
+					"RegionID": "54970",
+					"RegionName": "Laverton (S)",
+					"LevelType": "LGA"
+				},
+				"55040": {
+					"RegionID": "55040",
+					"RegionName": "Leonora (S)",
+					"LevelType": "LGA"
+				},
+				"55110": {
+					"RegionID": "55110",
+					"RegionName": "Mandurah (C)",
+					"LevelType": "LGA"
+				},
+				"55180": {
+					"RegionID": "55180",
+					"RegionName": "Manjimup (S)",
+					"LevelType": "LGA"
+				},
+				"55250": {
+					"RegionID": "55250",
+					"RegionName": "Meekatharra (S)",
+					"LevelType": "LGA"
+				},
+				"55320": {
+					"RegionID": "55320",
+					"RegionName": "Melville (C)",
+					"LevelType": "LGA"
+				},
+				"55390": {
+					"RegionID": "55390",
+					"RegionName": "Menzies (S)",
+					"LevelType": "LGA"
+				},
+				"55460": {
+					"RegionID": "55460",
+					"RegionName": "Merredin (S)",
+					"LevelType": "LGA"
+				},
+				"55530": {
+					"RegionID": "55530",
+					"RegionName": "Mingenew (S)",
+					"LevelType": "LGA"
+				},
+				"55600": {
+					"RegionID": "55600",
+					"RegionName": "Moora (S)",
+					"LevelType": "LGA"
+				},
+				"55670": {
+					"RegionID": "55670",
+					"RegionName": "Morawa (S)",
+					"LevelType": "LGA"
+				},
+				"55740": {
+					"RegionID": "55740",
+					"RegionName": "Mosman Park (T)",
+					"LevelType": "LGA"
+				},
+				"55810": {
+					"RegionID": "55810",
+					"RegionName": "Mount Magnet (S)",
+					"LevelType": "LGA"
+				},
+				"55880": {
+					"RegionID": "55880",
+					"RegionName": "Mount Marshall (S)",
+					"LevelType": "LGA"
+				},
+				"55950": {
+					"RegionID": "55950",
+					"RegionName": "Mukinbudin (S)",
+					"LevelType": "LGA"
+				},
+				"56090": {
+					"RegionID": "56090",
+					"RegionName": "Mundaring (S)",
+					"LevelType": "LGA"
+				},
+				"56160": {
+					"RegionID": "56160",
+					"RegionName": "Murchison (S)",
+					"LevelType": "LGA"
+				},
+				"56230": {
+					"RegionID": "56230",
+					"RegionName": "Murray (S)",
+					"LevelType": "LGA"
+				},
+				"56300": {
+					"RegionID": "56300",
+					"RegionName": "Nannup (S)",
+					"LevelType": "LGA"
+				},
+				"56370": {
+					"RegionID": "56370",
+					"RegionName": "Narembeen (S)",
+					"LevelType": "LGA"
+				},
+				"56460": {
+					"RegionID": "56460",
+					"RegionName": "Narrogin (S)",
+					"LevelType": "LGA"
+				},
+				"56580": {
+					"RegionID": "56580",
+					"RegionName": "Nedlands (C)",
+					"LevelType": "LGA"
+				},
+				"56620": {
+					"RegionID": "56620",
+					"RegionName": "Ngaanyatjarraku (S)",
+					"LevelType": "LGA"
+				},
+				"56730": {
+					"RegionID": "56730",
+					"RegionName": "Northam (S)",
+					"LevelType": "LGA"
+				},
+				"56790": {
+					"RegionID": "56790",
+					"RegionName": "Northampton (S)",
+					"LevelType": "LGA"
+				},
+				"56860": {
+					"RegionID": "56860",
+					"RegionName": "Nungarin (S)",
+					"LevelType": "LGA"
+				},
+				"56930": {
+					"RegionID": "56930",
+					"RegionName": "Peppermint Grove (S)",
+					"LevelType": "LGA"
+				},
+				"57000": {
+					"RegionID": "57000",
+					"RegionName": "Perenjori (S)",
+					"LevelType": "LGA"
+				},
+				"57080": {
+					"RegionID": "57080",
+					"RegionName": "Perth (C)",
+					"LevelType": "LGA"
+				},
+				"57140": {
+					"RegionID": "57140",
+					"RegionName": "Pingelly (S)",
+					"LevelType": "LGA"
+				},
+				"57210": {
+					"RegionID": "57210",
+					"RegionName": "Plantagenet (S)",
+					"LevelType": "LGA"
+				},
+				"57280": {
+					"RegionID": "57280",
+					"RegionName": "Port Hedland (T)",
+					"LevelType": "LGA"
+				},
+				"57350": {
+					"RegionID": "57350",
+					"RegionName": "Quairading (S)",
+					"LevelType": "LGA"
+				},
+				"57420": {
+					"RegionID": "57420",
+					"RegionName": "Ravensthorpe (S)",
+					"LevelType": "LGA"
+				},
+				"57490": {
+					"RegionID": "57490",
+					"RegionName": "Rockingham (C)",
+					"LevelType": "LGA"
+				},
+				"57630": {
+					"RegionID": "57630",
+					"RegionName": "Sandstone (S)",
+					"LevelType": "LGA"
+				},
+				"57700": {
+					"RegionID": "57700",
+					"RegionName": "Serpentine-Jarrahdale (S)",
+					"LevelType": "LGA"
+				},
+				"57770": {
+					"RegionID": "57770",
+					"RegionName": "Shark Bay (S)",
+					"LevelType": "LGA"
+				},
+				"57840": {
+					"RegionID": "57840",
+					"RegionName": "South Perth (C)",
+					"LevelType": "LGA"
+				},
+				"57910": {
+					"RegionID": "57910",
+					"RegionName": "Stirling (C)",
+					"LevelType": "LGA"
+				},
+				"57980": {
+					"RegionID": "57980",
+					"RegionName": "Subiaco (C)",
+					"LevelType": "LGA"
+				},
+				"58050": {
+					"RegionID": "58050",
+					"RegionName": "Swan (C)",
+					"LevelType": "LGA"
+				},
+				"58190": {
+					"RegionID": "58190",
+					"RegionName": "Tammin (S)",
+					"LevelType": "LGA"
+				},
+				"58260": {
+					"RegionID": "58260",
+					"RegionName": "Three Springs (S)",
+					"LevelType": "LGA"
+				},
+				"58330": {
+					"RegionID": "58330",
+					"RegionName": "Toodyay (S)",
+					"LevelType": "LGA"
+				},
+				"58400": {
+					"RegionID": "58400",
+					"RegionName": "Trayning (S)",
+					"LevelType": "LGA"
+				},
+				"58470": {
+					"RegionID": "58470",
+					"RegionName": "Upper Gascoyne (S)",
+					"LevelType": "LGA"
+				},
+				"58510": {
+					"RegionID": "58510",
+					"RegionName": "Victoria Park (T)",
+					"LevelType": "LGA"
+				},
+				"58540": {
+					"RegionID": "58540",
+					"RegionName": "Victoria Plains (S)",
+					"LevelType": "LGA"
+				},
+				"58570": {
+					"RegionID": "58570",
+					"RegionName": "Vincent (C)",
+					"LevelType": "LGA"
+				},
+				"58610": {
+					"RegionID": "58610",
+					"RegionName": "Wagin (S)",
+					"LevelType": "LGA"
+				},
+				"58680": {
+					"RegionID": "58680",
+					"RegionName": "Wandering (S)",
+					"LevelType": "LGA"
+				},
+				"58760": {
+					"RegionID": "58760",
+					"RegionName": "Wanneroo (C)",
+					"LevelType": "LGA"
+				},
+				"58820": {
+					"RegionID": "58820",
+					"RegionName": "Waroona (S)",
+					"LevelType": "LGA"
+				},
+				"58890": {
+					"RegionID": "58890",
+					"RegionName": "West Arthur (S)",
+					"LevelType": "LGA"
+				},
+				"59030": {
+					"RegionID": "59030",
+					"RegionName": "Westonia (S)",
+					"LevelType": "LGA"
+				},
+				"59100": {
+					"RegionID": "59100",
+					"RegionName": "Wickepin (S)",
+					"LevelType": "LGA"
+				},
+				"59170": {
+					"RegionID": "59170",
+					"RegionName": "Williams (S)",
+					"LevelType": "LGA"
+				},
+				"59250": {
+					"RegionID": "59250",
+					"RegionName": "Wiluna (S)",
+					"LevelType": "LGA"
+				},
+				"59310": {
+					"RegionID": "59310",
+					"RegionName": "Wongan-Ballidu (S)",
+					"LevelType": "LGA"
+				},
+				"59320": {
+					"RegionID": "59320",
+					"RegionName": "Woodanilling (S)",
+					"LevelType": "LGA"
+				},
+				"59330": {
+					"RegionID": "59330",
+					"RegionName": "Wyalkatchem (S)",
+					"LevelType": "LGA"
+				},
+				"59340": {
+					"RegionID": "59340",
+					"RegionName": "Wyndham-East Kimberley (S)",
+					"LevelType": "LGA"
+				},
+				"59350": {
+					"RegionID": "59350",
+					"RegionName": "Yalgoo (S)",
+					"LevelType": "LGA"
+				},
+				"59360": {
+					"RegionID": "59360",
+					"RegionName": "Yilgarn (S)",
+					"LevelType": "LGA"
+				},
+				"59370": {
+					"RegionID": "59370",
+					"RegionName": "York (S)",
+					"LevelType": "LGA"
+				}
+			}
+		},
+		"6": {
+			"RegionID": "6",
+			"RegionName": "Tasmania",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"60210": {
+					"RegionID": "60210",
+					"RegionName": "Break O'Day (M)",
+					"LevelType": "LGA"
+				},
+				"60410": {
+					"RegionID": "60410",
+					"RegionName": "Brighton (M)",
+					"LevelType": "LGA"
+				},
+				"60610": {
+					"RegionID": "60610",
+					"RegionName": "Burnie (C)",
+					"LevelType": "LGA"
+				},
+				"60810": {
+					"RegionID": "60810",
+					"RegionName": "Central Coast (M) (Tas.)",
+					"LevelType": "LGA"
+				},
+				"61010": {
+					"RegionID": "61010",
+					"RegionName": "Central Highlands (M) (Tas.)",
+					"LevelType": "LGA"
+				},
+				"61210": {
+					"RegionID": "61210",
+					"RegionName": "Circular Head (M)",
+					"LevelType": "LGA"
+				},
+				"61410": {
+					"RegionID": "61410",
+					"RegionName": "Clarence (C)",
+					"LevelType": "LGA"
+				},
+				"61510": {
+					"RegionID": "61510",
+					"RegionName": "Derwent Valley (M)",
+					"LevelType": "LGA"
+				},
+				"61610": {
+					"RegionID": "61610",
+					"RegionName": "Devonport (C)",
+					"LevelType": "LGA"
+				},
+				"61810": {
+					"RegionID": "61810",
+					"RegionName": "Dorset (M)",
+					"LevelType": "LGA"
+				},
+				"62010": {
+					"RegionID": "62010",
+					"RegionName": "Flinders (M) (Tas.)",
+					"LevelType": "LGA"
+				},
+				"62210": {
+					"RegionID": "62210",
+					"RegionName": "George Town (M)",
+					"LevelType": "LGA"
+				},
+				"62410": {
+					"RegionID": "62410",
+					"RegionName": "Glamorgan/Spring Bay (M)",
+					"LevelType": "LGA"
+				},
+				"62610": {
+					"RegionID": "62610",
+					"RegionName": "Glenorchy (C)",
+					"LevelType": "LGA"
+				},
+				"62810": {
+					"RegionID": "62810",
+					"RegionName": "Hobart (C)",
+					"LevelType": "LGA"
+				},
+				"63010": {
+					"RegionID": "63010",
+					"RegionName": "Huon Valley (M)",
+					"LevelType": "LGA"
+				},
+				"63210": {
+					"RegionID": "63210",
+					"RegionName": "Kentish (M)",
+					"LevelType": "LGA"
+				},
+				"63410": {
+					"RegionID": "63410",
+					"RegionName": "King Island (M)",
+					"LevelType": "LGA"
+				},
+				"63610": {
+					"RegionID": "63610",
+					"RegionName": "Kingborough (M)",
+					"LevelType": "LGA"
+				},
+				"63810": {
+					"RegionID": "63810",
+					"RegionName": "Latrobe (M) (Tas.)",
+					"LevelType": "LGA"
+				},
+				"64010": {
+					"RegionID": "64010",
+					"RegionName": "Launceston (C)",
+					"LevelType": "LGA"
+				},
+				"64210": {
+					"RegionID": "64210",
+					"RegionName": "Meander Valley (M)",
+					"LevelType": "LGA"
+				},
+				"64610": {
+					"RegionID": "64610",
+					"RegionName": "Northern Midlands (M)",
+					"LevelType": "LGA"
+				},
+				"64810": {
+					"RegionID": "64810",
+					"RegionName": "Sorell (M)",
+					"LevelType": "LGA"
+				},
+				"65010": {
+					"RegionID": "65010",
+					"RegionName": "Southern Midlands (M)",
+					"LevelType": "LGA"
+				},
+				"65210": {
+					"RegionID": "65210",
+					"RegionName": "Tasman (M)",
+					"LevelType": "LGA"
+				},
+				"65410": {
+					"RegionID": "65410",
+					"RegionName": "Waratah/Wynyard (M)",
+					"LevelType": "LGA"
+				},
+				"65610": {
+					"RegionID": "65610",
+					"RegionName": "West Coast (M)",
+					"LevelType": "LGA"
+				},
+				"65810": {
+					"RegionID": "65810",
+					"RegionName": "West Tamar (M)",
+					"LevelType": "LGA"
+				}
+			}
+		},
+		"7": {
+			"RegionID": "7",
+			"RegionName": "Northern Territory",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"70200": {
+					"RegionID": "70200",
+					"RegionName": "Alice Springs (T)",
+					"LevelType": "LGA"
+				},
+				"70420": {
+					"RegionID": "70420",
+					"RegionName": "Barkly (R)",
+					"LevelType": "LGA"
+				},
+				"70540": {
+					"RegionID": "70540",
+					"RegionName": "Belyuen (S)",
+					"LevelType": "LGA"
+				},
+				"70620": {
+					"RegionID": "70620",
+					"RegionName": "Central Desert (R)",
+					"LevelType": "LGA"
+				},
+				"70700": {
+					"RegionID": "70700",
+					"RegionName": "Coomalie (S)",
+					"LevelType": "LGA"
+				},
+				"71000": {
+					"RegionID": "71000",
+					"RegionName": "Darwin (C)",
+					"LevelType": "LGA"
+				},
+				"71300": {
+					"RegionID": "71300",
+					"RegionName": "East Arnhem (R)",
+					"LevelType": "LGA"
+				},
+				"72200": {
+					"RegionID": "72200",
+					"RegionName": "Katherine (T)",
+					"LevelType": "LGA"
+				},
+				"72300": {
+					"RegionID": "72300",
+					"RegionName": "Litchfield (M)",
+					"LevelType": "LGA"
+				},
+				"72330": {
+					"RegionID": "72330",
+					"RegionName": "MacDonnell (R)",
+					"LevelType": "LGA"
+				},
+				"72800": {
+					"RegionID": "72800",
+					"RegionName": "Palmerston (C)",
+					"LevelType": "LGA"
+				},
+				"73600": {
+					"RegionID": "73600",
+					"RegionName": "Roper Gulf (R)",
+					"LevelType": "LGA"
+				},
+				"74050": {
+					"RegionID": "74050",
+					"RegionName": "Tiwi Islands (R)",
+					"LevelType": "LGA"
+				},
+				"74550": {
+					"RegionID": "74550",
+					"RegionName": "Victoria Daly (R)",
+					"LevelType": "LGA"
+				},
+				"74560": {
+					"RegionID": "74560",
+					"RegionName": "Wagait (S)",
+					"LevelType": "LGA"
+				},
+				"74660": {
+					"RegionID": "74660",
+					"RegionName": "West Arnhem (R)",
+					"LevelType": "LGA"
+				},
+				"74680": {
+					"RegionID": "74680",
+					"RegionName": "West Daly (R)",
+					"LevelType": "LGA"
+				},
+				"79399": {
+					"RegionID": "79399",
+					"RegionName": "Unincorporated NT",
+					"LevelType": "LGA"
+				}
+			}
+		},
+		"8": {
+			"RegionID": "8",
+			"RegionName": "Australian Capital Territory",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"89399": {
+					"RegionID": "89399",
+					"RegionName": "Unincorporated ACT",
+					"LevelType": "LGA"
+				}
+			}
+		},
+		"9": {
+			"RegionID": "9",
+			"RegionName": "Other Territories",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"99399": {
+					"RegionID": "99399",
+					"RegionName": "Unincorp. Other Territories",
+					"LevelType": "LGA"
+				}
+			}
+		}
+	}
+}

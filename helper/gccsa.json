@@ -1,0 +1,150 @@
+{
+	"RegionID": "AUS",
+	"RegionName": "AUSTRALIA",
+	"LevelType": "AUS",
+	"ChildRegions": {
+		"1": {
+			"RegionID": "1",
+			"RegionName": "New South Wales",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"1GSYD": {
+					"RegionID": "1GSYD",
+					"RegionName": "Greater Sydney",
+					"LevelType": "GCCSA"
+				},
+				"1RNSW": {
+					"RegionID": "1RNSW",
+					"RegionName": "Rest of NSW",
+					"LevelType": "GCCSA"
+				}
+			}
+		},
+		"2": {
+			"RegionID": "2",
+			"RegionName": "Victoria",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"2GMEL": {
+					"RegionID": "2GMEL",
+					"RegionName": "Greater Melbourne",
+					"LevelType": "GCCSA"
+				},
+				"2RVIC": {
+					"RegionID": "2RVIC",
+					"RegionName": "Rest of Vic.",
+					"LevelType": "GCCSA"
+				}
+			}
+		},
+		"3": {
+			"RegionID": "3",
+			"RegionName": "Queensland",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"3GBRI": {
+					"RegionID": "3GBRI",
+					"RegionName": "Greater Brisbane",
+					"LevelType": "GCCSA"
+				},
+				"3RQLD": {
+					"RegionID": "3RQLD",
+					"RegionName": "Rest of Qld",
+					"LevelType": "GCCSA"
+				}
+			}
+		},
+		"4": {
+			"RegionID": "4",
+			"RegionName": "South Australia",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"4GADE": {
+					"RegionID": "4GADE",
+					"RegionName": "Greater Adelaide",
+					"LevelType": "GCCSA"
+				},
+				"4RSAU": {
+					"RegionID": "4RSAU",
+					"RegionName": "Rest of SA",
+					"LevelType": "GCCSA"
+				}
+			}
+		},
+		"5": {
+			"RegionID": "5",
+			"RegionName": "Western Australia",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"5GPER": {
+					"RegionID": "5GPER",
+					"RegionName": "Greater Perth",
+					"LevelType": "GCCSA"
+				},
+				"5RWAU": {
+					"RegionID": "5RWAU",
+					"RegionName": "Rest of WA",
+					"LevelType": "GCCSA"
+				}
+			}
+		},
+		"6": {
+			"RegionID": "6",
+			"RegionName": "Tasmania",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"6GHOB": {
+					"RegionID": "6GHOB",
+					"RegionName": "Greater Hobart",
+					"LevelType": "GCCSA"
+				},
+				"6RTAS": {
+					"RegionID": "6RTAS",
+					"RegionName": "Rest of Tas.",
+					"LevelType": "GCCSA"
+				}
+			}
+		},
+		"7": {
+			"RegionID": "7",
+			"RegionName": "Northern Territory",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"7GDAR": {
+					"RegionID": "7GDAR",
+					"RegionName": "Greater Darwin",
+					"LevelType": "GCCSA"
+				},
+				"7RNTE": {
+					"RegionID": "7RNTE",
+					"RegionName": "Rest of NT",
+					"LevelType": "GCCSA"
+				}
+			}
+		},
+		"8": {
+			"RegionID": "8",
+			"RegionName": "Australian Capital Territory",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"8ACTE": {
+					"RegionID": "8ACTE",
+					"RegionName": "Australian Capital Territory",
+					"LevelType": "GCCSA"
+				}
+			}
+		},
+		"9": {
+			"RegionID": "9",
+			"RegionName": "Other Territories",
+			"LevelType": "STE",
+			"ChildRegions": {
+				"9OTER": {
+					"RegionID": "9OTER",
+					"RegionName": "Other Territories",
+					"LevelType": "GCCSA"
+				}
+			}
+		}
+	}
+}
